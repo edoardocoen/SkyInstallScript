@@ -18,7 +18,7 @@
 
 ##### This starts the Skywire Node
 cd $GOPATH/bin
-./manager -web-dir ${GOPATH}/src/github.com/skycoin/skywire/static/skywire-manager > /dev/null 2>&1 &
+nohup ./manager -web-dir ${GOPATH}/src/github.com/skycoin/skywire/static/skywire-manager > /dev/null 2>&1 & echo $! > manager.pid &
 
 ##### This starts the Skywire Monitor (Primary Node!!!)
 ##### Attention!!! This script is only to be used on Master/ Primary Node (OrangePI 1)!!!
