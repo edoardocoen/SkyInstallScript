@@ -140,7 +140,7 @@ echo "Skywire node is now started and you can see it in on the Monitor."
 echo "Downloading autostart scripts from TheSKYpeople Github" 
 cd ~
 wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/ServiceStartSkycoinWallet.sh
-wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/startsecond.sh
+wget https://raw.githubusercontent.com/edoardocoen/SkyInstallScript/master/startsecond.sh
 wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/ServiceStopSkywire.sh
 
  
