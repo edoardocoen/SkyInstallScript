@@ -145,7 +145,7 @@ echo "Downloading autostart scripts from TheSKYpeople Github"
 cd ~
 wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/ServiceStartSkycoinWallet.sh
 wget https://raw.githubusercontent.com/edoardoecoen/SkyInstallScript/master/startmanager.sh
-wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/stop.sh
+wget https://raw.githubusercontent.com/TheSKYpeople/SkyInstallScript/master/ServiceStopSkywire.sh
 
 ##### Executing InstallScript Part 2 (SkyInstallScriptRemote.sh) for installation of OrangePI 2-8 via SSH
 ###### Downloading Part 2
